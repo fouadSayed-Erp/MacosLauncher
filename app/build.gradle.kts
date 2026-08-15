@@ -9,8 +9,8 @@ android {
         applicationId = "com.fouad.macoslauncher"
         minSdk = 26
         targetSdk = 34
-        versionCode = 5
-        versionName = "5.0-fixed"
+        versionCode = 6
+        versionName = "6.0-macos-full"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -24,7 +24,8 @@ android {
 dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.compose.ui:ui:1.5.4")
+    implementation("androidx.compose.foundation:foundation:1.5.4")
     implementation("androidx.compose.material3:material3:1.1.2")
+    implementation("androidx.compose.material:material-icons-extended:1.5.4")
     implementation("androidx.activity:activity-compose:1.8.0")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.5.4")
 }
