@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
     <application
-        android:name="com.fouad.macos_launcher.MacLauncherApp"
+        android:name=".MacLauncherApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="MacOS Launcher"
-        android:supportsRtl="true"
-        android:theme="@android:style/Theme.NoTitleBar">
+        android:theme="@style/Theme.MacOSLauncher">
         <activity
-            android:name="com.fouad.macos_launcher.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
-            android:launchMode="singleTask">
+            android:label="MacOS Launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.HOME" />
